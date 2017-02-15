@@ -242,6 +242,7 @@
 "C:\Users\smoke_000\Source\Repos\MVCMovie\Data\Migrations\20170211180804_Required.Designer.cs"
 "C:\Users\smoke_000\Source\Repos\MVCMovie\Data\Migrations\ApplicationDbContextModelSnapshot.cs"
 "C:\Users\smoke_000\Source\Repos\MVCMovie\Models\ApplicationUser.cs"
+"C:\Users\smoke_000\Source\Repos\MVCMovie\Models\CData.cs"
 "C:\Users\smoke_000\Source\Repos\MVCMovie\Models\Movie.cs"
 "C:\Users\smoke_000\Source\Repos\MVCMovie\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs"
 "C:\Users\smoke_000\Source\Repos\MVCMovie\Models\AccountViewModels\ForgotPasswordViewModel.cs"

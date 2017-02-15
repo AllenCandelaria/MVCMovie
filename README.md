@@ -1,2 +1,0 @@
-# MVCMovie
-class project

@@ -1,4 +1,4 @@
-@model MVCMovie.Models.Movie
+@model MVCmovie.Models.Movie
 
 @{
     ViewData["Title"] = "Edit";
@@ -7,7 +7,7 @@
 <h2>Edit</h2>
 
 <form asp-action="Edit">
-    <div class="form-horizontal">
+    <div></div> class="form-horizontal">
         <h4>Movie</h4>
         <hr />
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -27,25 +27,30 @@
             </div>
         </div>
         <div class="form-group">
-            <label asp-for="ReleaseDate" class="col-md-2 control-label"></label>
+            <label asp-for="Rating" class="col-md-2 control-label"></label>
             <div class="col-md-10">
-                <input asp-for="ReleaseDate" class="form-control" />
-                <span asp-validation-for="ReleaseDate" class="text-danger" />
+                <input asp-for="Rating" class="form-control" />
+                <span asp-validation-for="Rating" class="text-danger" />
             </div>
-        </div>
         <div class="form-group">
-            <label asp-for="title" class="col-md-2 control-label"></label>
-            <div class="col-md-10">
-                <input asp-for="title" class="form-control" />
-                <span asp-validation-for="title" class="text-danger" />
+              <label asp-for="ReleaseDate" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="ReleaseDate" class="form-control" />
+                    <span asp-validation-for="ReleaseDate" class="text-danger" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Title" class="col-md-2 control-label"></label>
+                    <div class="col-md-10">
+                        <input asp-for="Title" class="form-control" />
+                        <span asp-validation-for="Title" class="text-danger" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-default" />
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
-            </div>
-        </div>
-    </div>
 </form>
 
 <div>

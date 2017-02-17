@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using MVCMovie.Data;
 using MVCMovie.Models;
 using MVCMovie.Services;
+using MVCmovie.Models;
 
 namespace MVCMovie
 {

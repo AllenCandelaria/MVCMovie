@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using MVCMovie.Models;
-using MVCMovie.Models.ManageViewModels;
+using MVCmovie.Models;
+using MVCmovie.Models.ManageViewModels;
 using MVCMovie.Services;
 
-namespace MVCMovie.Controllers
+namespace MVCmovie.Controllers
 {
     [Authorize]
     public class ManageController : Controller

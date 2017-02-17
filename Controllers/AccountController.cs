@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using MVCMovie.Models;
-using MVCMovie.Models.AccountViewModels;
+using MVCmovie.Models;
+using MVCmovie.Models.AccountViewModels;
 using MVCMovie.Services;
 
-namespace MVCMovie.Controllers
+namespace MVCmovie.Controllers
 {
     [Authorize]
     public class AccountController : Controller

@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MVCMovie.Data;
+using MVCmovie.Models;
+
 namespace MVCMovie.Models
 {
     public class CData
@@ -23,7 +25,7 @@ namespace MVCMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        title = "when Harry Met Sally",
+                        Title = "when Harry Met Sally",
                         ReleaseDate = DateTime.Parse("1984-03-13"),
                         Genre = "Romantic Comedy",
                         Price = 7.99M
@@ -32,14 +34,14 @@ namespace MVCMovie.Models
                     new Movie
 
                     {
-                        title = "Goastbusters 2",
+                        Title = "Goastbusters 2",
                         ReleaseDate = DateTime.Parse("1999-01-01"),
                         Genre = "comedy",
                         Price = 9.99M
                     },
                     new Movie
                     {
-                        title = "kill Bill",
+                        Title = "kill Bill",
                         ReleaseDate = DateTime.Parse("2004-02-22"),
                         Genre = "action",
                         Price = 13.22M

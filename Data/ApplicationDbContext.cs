@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MVCMovie.Models;
+using MVCmovie.Models;
 
 namespace MVCMovie.Data
 {

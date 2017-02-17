@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MVCMovie.Models.ManageViewModels
+namespace MVCmovie.Models.ManageViewModels
 {
     public class FactorViewModel
     {
